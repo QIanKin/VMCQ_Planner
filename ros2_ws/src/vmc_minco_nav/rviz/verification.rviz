@@ -1,0 +1,127 @@
+Panels:
+  - Class: rviz_common/Displays
+    Help Height: 78
+    Name: Displays
+    Property Tree Widget:
+      Expanded:
+        - /Global Options1
+        - /TF1
+        - /Obstacles1
+        - /Planned Path1
+      Splitter Ratio: 0.5
+    Tree Height: 574
+  - Class: rviz_common/Views
+    Expanded:
+      - /Current View1
+    Name: Views
+    Splitter Ratio: 0.5
+Visualization Manager:
+  Class: ""
+  Displays:
+    - Alpha: 0.5
+      Cell Size: 1
+      Class: rviz_default_plugins/Grid
+      Color: 160; 160; 164
+      Enabled: true
+      Line Style:
+        Line Width: 0.029999999329447746
+        Value: Lines
+      Name: Grid
+      Normal Cell Count: 0
+      Offset:
+        X: 0
+        Y: 0
+        Z: 0
+      Plane: XY
+      Plane Cell Count: 10
+      Reference Frame: <Fixed Frame>
+      Value: true
+    - Class: rviz_default_plugins/TF
+      Enabled: true
+      Name: TF
+      Marker Scale: 1
+      Show Arrows: true
+      Show Axes: true
+      Show Names: true
+      Tree:
+        map:
+          base_link:
+            {}
+      Update Interval: 0
+      Value: true
+    - Class: rviz_default_plugins/MarkerArray
+      Enabled: true
+      Name: Obstacles
+      Topic:
+        Value: /obstacles
+      Queue Size: 10
+      Value: true
+    - Class: rviz_default_plugins/Path
+      Enabled: true
+      Name: VMC Path
+      Topic:
+        Value: /vmc_path
+      Queue Size: 10
+      Line Style: Lines
+      Line Width: 0.03
+      Color: 0; 0; 255
+      Value: true
+    - Class: rviz_default_plugins/MarkerArray
+      Enabled: true
+      Name: Waypoints
+      Topic:
+        Value: /waypoints
+      Queue Size: 10
+      Value: true
+    - Class: rviz_default_plugins/Path
+      Enabled: true
+      Name: Planned Path
+      Topic:
+        Value: /planned_path
+      Queue Size: 10
+      Line Style: Billboards
+      Line Width: 0.08
+      Color: 0; 255; 0
+      Value: true
+  Enabled: true
+  Global Options:
+    Background Color: 48; 48; 48
+    Fixed Frame: map
+    Frame Rate: 30
+  Name: root
+  Tools:
+    - Class: rviz_default_plugins/Interact
+      Hide Inactive Objects: true
+    - Class: rviz_default_plugins/MoveCamera
+    - Class: rviz_default_plugins/Select
+    - Class: rviz_default_plugins/FocusCamera
+    - Class: rviz_default_plugins/Measure
+      Line color: 128; 128; 0
+    - Class: rviz_default_plugins/SetInitialPose
+      Topic:
+        Value: /initialpose
+    - Class: rviz_default_plugins/SetGoal
+      Topic:
+        Value: /goal_pose
+  Value: true
+  Views:
+    Current:
+      Class: rviz_default_plugins/Orbit
+      Distance: 31.792999267578125
+      Enable Stereo Rendering:
+        Stereo Eye Separation: 0.05999999865889549
+        Stereo Focal Distance: 1
+        Swap Stereo Eyes: false
+        Value: false
+      Focal Point:
+        X: 8.610000610351562
+        Y: 10.15000057220459
+        Z: 1.1920928955078125e-07
+      Focal Shape Fixed Size: true
+      Focal Shape Size: 0.05000000074505806
+      Name: Current View
+      Near Clip Distance: 0.009999999776482582
+      Pitch: 0.7397969365119934
+      Target Frame: <Fixed Frame>
+      Value: Orbit (rviz)
+      Yaw: 0.7725244164466858

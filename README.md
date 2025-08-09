@@ -1,5 +1,5 @@
-# Welcome to GitHub Desktop!
+# A global path planner based on virtual motion camouflage and Q-learning（VMCQ）
 
-This is your README. READMEs are where you can communicate what your project is and how to use it.
+Your system should be equipped with Ubuntu 22.04, ROS2 Humble, and Nav2.
 
-Write your name on line 6, save it, and then head back to GitHub Desktop.
+We are testing..................
